@@ -22,7 +22,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = (os.getenv("BOT_TOKEN") or "").strip()
+BOT_TOKEN = (os.getenv("8377501277:AAHHsFzPv1Mfh-K5eEHixIl0rw2sBSJ0Lgo") or "").strip()
 if not BOT_TOKEN:
     raise ValueError("BOT_TOKEN не задан!")
 
